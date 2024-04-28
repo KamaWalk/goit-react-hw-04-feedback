@@ -1,0 +1,14 @@
+.title {
+    font-size: 28px;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    justify-items: center;
+  }
+
+  .sectionStats {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border-color: black;
+  }

@@ -1,0 +1,54 @@
+.statsSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+
+.numbers {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 3px;
+  }
+  
+  .total {
+    font-size: 25px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 35px;
+    background-color: #fff;
+  }
+  
+  .good {
+    display: block;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 35px;
+    background-color: #00ff00c7;
+  }
+  
+  .neutral {
+    display: block;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 35px;
+    background-color: #fff709c7;
+  }
+  
+  .bad {
+    display: block;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: #ff0033de;
+  }

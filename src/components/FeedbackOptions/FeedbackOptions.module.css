@@ -1,0 +1,52 @@
+.wrap {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .good {
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 30px;
+    margin: 5px;
+    border-width: 1px;
+    border-radius: 25px;
+  }
+  
+  .good:hover {
+    background-color: #00f400cd;
+    color: #0baa0b;
+  }
+  
+  .neutral {
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 10px 30px;
+    border-width: 1px;
+    border-radius: 25px;
+  }
+  
+  .neutral:hover {
+    background-color: #ffeb0fcd;
+    color: #c9ba0f;
+  }
+  
+  .bad {
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 10px 40px;
+    border-width: 1px;
+    border-radius: 25px;
+  }
+  
+  .bad:hover {
+    background-color: #ff0033da;
+    color: #b00d2e;
+  }
