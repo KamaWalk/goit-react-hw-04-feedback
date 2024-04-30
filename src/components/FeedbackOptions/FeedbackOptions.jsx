@@ -4,11 +4,11 @@ import css from './FeedbackOptions.module.css';
 export const FeedbackOptions = ({ onLeaveFeedback, options }) => {
   return (
     <div className={css.wrap}>
-      {options.map((name, i) => {
+      {options.map(name => {
         return (
           <button
-            key={i + 1}
-            className={css[name]}
+            key={name}
+            hoverType={name}
             onClick={() => {
               onLeaveFeedback(name);
             }}
