@@ -7,8 +7,8 @@ export const FeedbackOptions = ({ onLeaveFeedback, options }) => {
       {options.map(name => {
         return (
           <button
+            className={css[name]}
             key={name}
-            hoverType={name}
             onClick={() => {
               onLeaveFeedback(name);
             }}
